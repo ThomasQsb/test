@@ -13,4 +13,13 @@ public class utest {
         assertEquals(expexted, result, "有效数据检验获取最大值！");
 
     }
+    @Test
+    void errlist(){
+        main cc=new main();
+        int[] inlist={-1,2,55,6};
+        int expexted=54;
+        int result=cc.getlargestelement(inlist);
+        assertEquals(expexted, result, "有效数据检验获取最大值！");
+
+    }
 }
