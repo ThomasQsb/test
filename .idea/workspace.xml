@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3560e05-b44d-487b-9206-ea2575911f38" name="Default Changelist" comment="" />
+    <list default="true" id="b3560e05-b44d-487b-9206-ea2575911f38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testju/utest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testju/utest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1RMbkiac1ZrQ8nc17cj60BVL1ma" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-jupiter-api-5.5.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -45,7 +53,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.utest">
+    <configuration name="utest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junittest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testju.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testju" />
+      <option name="MAIN_CLASS_NAME" value="com.testju.utest" />
+      <option name="METHOD_NAME" value="testlist" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:com.testju.utest]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="utest.testlist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junittest" />
       <extension name="coverage">
@@ -64,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.utest" />
         <item itemvalue="JUnit.utest.testlist" />
       </list>
     </recent_temporary>
@@ -80,5 +108,18 @@
       <updated>1569480056187</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
